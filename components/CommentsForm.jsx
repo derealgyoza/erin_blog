@@ -47,11 +47,11 @@ const CommentsForm = ({ slug }) => {
     };
 
     if (storeData) {
-      localStorage.setItem('name', name);
-      localStorage.setItem('email', email);
+      window.localStorage.setItem('name', name);
+      window.localStorage.setItem('email', email);
     } else {
-      localStorage.removeItem('name');
-      localStorage.removeItem('email');
+      window.localStorage.removeItem('name');
+      window.localStorage.removeItem('email');
     }
 
     submitComment(commentObj)
