@@ -10,8 +10,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build": "next build && next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "graphql": "^15.8.0",
